@@ -1,0 +1,26 @@
+# 虚拟环境
+venv/
+env/
+
+# chroma向量库
+chroma_db/
+
+# 生成的文档与数据
+txt_docs/
+*.csv
+!demo_selected_stocks.csv
+
+# python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 日志
+*.log
+
+# 本地环境变量、密钥
+.env
+
+# Ollama模型
+*.gguf
